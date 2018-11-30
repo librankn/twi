@@ -8,7 +8,17 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
+  <header>
+    <a href="/records">index</a>
+    <a href="/records/new">new</a>
+  </header>
+
   <body>
     <%= yield %>
   </body>
+
+  <footer>
+    <p>2018-05 佐藤邦彦</p>
+  </footer>
+
 </html>

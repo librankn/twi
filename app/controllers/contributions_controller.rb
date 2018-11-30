@@ -22,7 +22,7 @@ class ContributionsController < ApplicationController
     end
   end
 
-  def edit
+  def show
   end
 
   def update
